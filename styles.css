@@ -1,0 +1,36 @@
+.whitetext {
+    color: aliceblue;
+    margin-top:3px;
+    font-family: 'Baloo Tammudu 2', cursive;
+
+}
+.bluetext {
+    color:#3F4A88;
+    margin-top:3px;
+    font-family: 'Baloo Tammudu 2', cursive;
+
+}
+
+
+.navbar-toggler-icon{
+    color: #F8DD01;
+    
+}
+
+.header {
+    font-size:2.1em;
+}
+
+.learnnow{
+    background-color:#F8DD01;
+    color:#3F4A88;
+}
+
+.learnnow:hover {
+    border: solid 2px aliceblue;
+    font-weight: bold;
+}
+
+.bluebg {
+    background-color:#3F4A88;
+}
