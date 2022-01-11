@@ -121,13 +121,23 @@
         <div class="row">
           <button
             type="button"
-            class="btn btn-lg btn-danger"
+            class="btn btn-lg btn-warning whitetext"
             data-bs-toggle="popover"
-            title="Popover title"
-            data-bs-content="And here's some amazing content. It's very engaging. Right?"
+            title="Summer Update (Till 2022 Summer)"
+            data-bs-content="Summer Update : Channel is down until summer 2022. Thanks for checking in!"
           >
-            Click to toggle popover
+            Click me for site update!
           </button>
+          <script>
+            var popoverTriggerList = [].slice.call(
+              document.querySelectorAll('[data-bs-toggle="popover"]')
+            );
+            var popoverList = popoverTriggerList.map(function (
+              popoverTriggerEl
+            ) {
+              return new bootstrap.Popover(popoverTriggerEl);
+            });
+          </script>
 
           <div class="col-md p-5 bluetext">
             <h1>About Us (<span style="color: #f8dd01">Me</span>)</h1>
